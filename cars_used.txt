@@ -17,6 +17,3 @@ has_damaged      TINYINT(1)                 NOT_NULL
 country          VARCHAR(20)                NULL
 description      TEXT                       NOT_NULL
 posistion        CHAR(5)                    NOT_NULL
-
-
-
