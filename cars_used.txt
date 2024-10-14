@@ -1,17 +1,22 @@
 Modellizzare la struttura di una tabella per memorizzare tutti i dati 
 riguardanti delle auto usate messe in vendita da un concessionario
 
-id
-brand
-series
-year
-km
-power_supply
-n_owners
-cc
-kw
-n_seating
-damage
-country
+id               BIGINT                     NOT_NULL          AUTO_INCREMENT           PRIMARY KEY
+brand            VARCHAR(20)                NOT_NULL
+model            VARCHAR(20)                NOT_NULL
+series           VARCHAR(40)                NOT_NULL
+year             YEAR                       NOT_NULL
+km               MEDIUMINT UNSIGNED         NOT_NULL
+power_supply     VARCHAR(20)                NOT_NULL
+n_owners         SMALLINT UNSIGNED          NOT_NULL
+last_owner       TINYTEXT                   NULL
+cc               SMALLINT UNSIGNED          NOT_NULL
+kw               SMALLINT UNSIGNED          NOT_NULL
+n_seating        TINYINT UNSIGNED           NOT_NULL
+has_damaged      TINYINT(1)                 NOT_NULL
+country          VARCHAR(20)                NULL
+description      TEXT                       NOT_NULL
+posistion        CHAR(5)                    NOT_NULL
+
 
 
