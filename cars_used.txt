@@ -1,2 +1,17 @@
 Modellizzare la struttura di una tabella per memorizzare tutti i dati 
 riguardanti delle auto usate messe in vendita da un concessionario
+
+id
+brand
+series
+year
+km
+power_supply
+n_owners
+cc
+kw
+n_seating
+damage
+country
+
+
